@@ -3,7 +3,7 @@
 1. Before running the tests, you have to provide the values for VK credentials:
 - app access token;
 - app id (this is the same as user id);
-- login for the VK user account (a pnone number or an email);
+- login for the VK user account (a phone number or an email);
 - password for the VK user account.  
 
 2. To do this:
