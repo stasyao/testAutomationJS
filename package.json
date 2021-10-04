@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "npx wdio configs/wdio.conf.cjs"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/register": "^7.15.3",
+    "@cucumber/cucumber": "^7.3.1",
+    "@wdio/cli": "^7.12.4",
+    "@wdio/cucumber-framework": "^7.12.4",
+    "@wdio/local-runner": "^7.12.4",
+    "@wdio/spec-reporter": "^7.10.1",
+    "chai": "^4.3.4",
+    "chromedriver": "^93.0.1",
+    "http-status-codes": "^2.1.4",
+    "jimp": "^0.16.1",
+    "node-fetch": "^2.6.1",
+    "pixelmatch": "^5.2.1",
+    "supertest": "^6.1.6",
+    "wdio-chromedriver-service": "^7.2.0"
+  },
+  "dependencies": {}
+}
